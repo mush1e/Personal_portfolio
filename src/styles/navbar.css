@@ -1,0 +1,52 @@
+.nav--div {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.nav--nav-links {
+    font-family: JetBrains Mono;
+    list-style: none;
+    align-items: center;
+}
+
+
+.nav--nav-links {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.nav--nav-links > li {
+    padding: 0px 20px;
+} 
+
+.nav--nav-links > li > a {
+    color: slategray;
+    text-decoration: none;
+    transition: ease 0.35s;
+}
+
+.nav--nav-links > li > a:hover {
+    color: var(--text-color-primary);
+}
+
+.nav--resume {
+    border-style: solid;
+    border-color: lightcoral;
+}
+
+.nav--resume > button {
+    background-color: var(--background-color);
+    padding: 0.5rem;
+    border: 0;
+    font-size: 1rem;
+    color: lightcoral;
+    font-family: JetBrains Mono;
+}
+
+.nav--resume > button:hover {
+    background-color: lightcoral;
+    color: var(--background-color);
+    transition: background-color ease 0.5s,
+    color ease 0.5s;
+}

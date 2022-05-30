@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&family=Libre+Barcode+128+Text&family=Open+Sans:wght@500&display=swap');
+:root {
+    --background-color: #1e2126;
+    --text-color-primary: #f8f8f2;
+    --text-color-secondary: grey;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    background-color: var(--background-color);
+    color: var(--text-color-primary);
+}

@@ -1,0 +1,64 @@
+.main--fg-text-div {
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 15vw;
+    padding: 2rem;
+    text-align: left;
+    border-style: solid;
+    border-color: lightcoral;
+    border-width: 0.35rem;
+}
+
+.main--fg-text-div > h1 {
+    font-size: 5rem;
+    font-family: Open Sans;
+}
+
+.main--fg-text-div > p {
+    font-size: 1.5rem;
+    color: lightcoral;
+    font-family: JetBrains Mono;
+}
+
+.main--fg-text-subtext{
+    color: lightslategray;
+}
+
+.footer--fg-text-div {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    /* padding: 1rem; */
+    text-align: left;
+    border-style: solid;
+    border-color: lightcoral;
+}
+
+.footer--fg-text-div > button {
+    background-color: var(--background-color);
+    padding: 1rem;
+    border: 0;
+}
+
+.footer--fg-text-div > button:hover {
+    background-color: lightcoral;
+    color: var(--background-color);
+    transition: background-color ease 0.5s,
+                color ease 0.5s;
+
+}
+
+.footer--fg-text-div > button > strong{
+    font-size: 1rem;
+    color: lightcoral;
+    font-family: JetBrains Mono;
+}
+
+.footer--fg-text-div > button:hover strong{
+    background-color: lightcoral;
+    color: var(--background-color);
+    transition: background-color ease 0.5s,
+    color ease 0.5s;
+}
