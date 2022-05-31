@@ -1,0 +1,24 @@
+.footer--div{
+    /* transform: rotate(90deg); */
+    left: 10%;
+}
+
+text {
+    overflow: hidden;
+    text-align: center;
+}
+
+text:after{
+    background-color: aliceblue;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 10%;
+}
+
+text:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
