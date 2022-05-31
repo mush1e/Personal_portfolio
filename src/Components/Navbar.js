@@ -2,7 +2,7 @@ import '../styles/navbar.css'
 export default function Navbar () {
     return (
         <div className='nav--div'>
-            <img></img>
+            <p>Siddiqui</p>
             <nav>
                 <ul className='nav--nav-links'>
                     <li>

@@ -1,3 +1,13 @@
+.nav--div > p {
+    font-family: "Libre Barcode 128 Text";
+    font-size: 2.5rem;
+    color: slategray;
+}
+p:hover{
+    color: white;
+    transition: ease 0.5s;
+}
+
 .nav--div {
     display: flex;
     justify-content: space-between;

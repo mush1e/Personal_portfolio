@@ -6,6 +6,7 @@
 text {
     overflow: hidden;
     text-align: center;
+    /* transform: rotate(90deg); */
 }
 
 text:after{
@@ -15,7 +16,7 @@ text:after{
     height: 1px;
     position: relative;
     vertical-align: middle;
-    width: 10%;
+    width: 10vh;
 }
 
 text:before {
