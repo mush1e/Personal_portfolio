@@ -1,15 +1,16 @@
 .email--footer-div{
     position: absolute;
     transform: rotate(90deg);
-    bottom: 1vh;
-    left: 10%;
+    bottom: 15vh;
+    left: 0%;
 }
-/* .icon--footer-div{
+.icon--footer-div{
+    top: auto;
     position: absolute;
     transform: rotate(90deg);
-    left: 90%;
-    bottom: 1vh;
-} */
+    right: 10%;
+    bottom: 8vh
+}
 
 text {
     overflow: hidden;
