@@ -2,6 +2,7 @@
     font-family: "Libre Barcode 128 Text";
     font-size: 2.5rem;
     color: slategray;
+    transition: ease 0.35s;
 }
 p:hover{
     color: white;
@@ -52,6 +53,7 @@ p:hover{
     font-size: 1rem;
     color: lightcoral;
     font-family: JetBrains Mono;
+    transition: ease 0.35s;
 }
 
 .nav--resume > button:hover {

@@ -2,24 +2,27 @@
     position: absolute;
     transform: rotate(90deg);
     bottom: 15vh;
-    left: 0%;
+    left: -5%;
 }
 .icon--footer-div{
     top: auto;
     position: absolute;
     transform: rotate(90deg);
-    right: 10%;
+    right: 0%;
     bottom: 8vh
 }
 
 text {
     overflow: hidden;
     text-align: center;
+    font-family: Jetbrains Mono;
+    color: lightcoral;
+    opacity: 0.35;
     /* transform: rotate(90deg); */
 }
 
 text:after{
-    background-color: aliceblue;
+    background-color: slategray;
     content: "";
     display: inline-block;
     height: 1px;
@@ -32,3 +35,8 @@ text:before {
     right: 0.5em;
     margin-left: -50%;
   }
+
+text:hover {
+    opacity: 1;
+    transition: ease 0.5s;
+}
