@@ -1,15 +1,17 @@
 .email--footer-div{
     position: absolute;
+    bottom: 0;
+    transform: translateY(-100%);
     transform: rotate(90deg);
-    bottom: 15vh;
     left: -5%;
 }
 .icon--footer-div{
     top: auto;
     position: absolute;
-    transform: rotate(90deg);
     right: 0%;
-    bottom: 8vh
+    bottom: 0%;
+    transform: translateY(-100%);
+    transform: rotate(90deg);
 }
 
 text {
