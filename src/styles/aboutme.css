@@ -1,0 +1,14 @@
+.AboutMe--div {
+    width: 70%;
+    transform: translate(25%,10vh);
+}
+.Title-number {
+    font-family: Jetbrains Mono;
+    color: lightcoral;
+}
+
+.Title-text{
+    font-family: Open Sans;
+    font-size: 1.5rem;
+    opacity: 0.5;
+}

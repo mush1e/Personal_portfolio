@@ -1,10 +1,11 @@
 import Navbar from './Navbar'
 import Footer from './Footer'
-export default function AboutMe() {
+import AboutMe from './AboutMe'
+export default function MainContent() {
     return(
         <div>
             <Navbar/>
-            {/* <Content/> */}
+            <AboutMe/>
             <Footer/>
         </div>
     )
